@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background 0.5s;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  canvas {
+    border: 1px solid #333;
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+  }
+  .controls, .score-board, .timer {
+    text-align: center;
+    margin-top: 15px;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .score-board, .timer {
+    font-size: 18px;
+  }
+  .dark-mode {
+    background-color: #222;
+    color: #eee;
+  }
+  .dark-mode canvas {
+    background-color: #333;
+  }
+  
